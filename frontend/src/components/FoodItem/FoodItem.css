@@ -67,6 +67,11 @@
     padding: 6px;
     border-radius: 50px;
     background-color: white;
+
+    p {
+        text-align: center;
+        width: 20px;
+    }
 }
 
 .food-item-counter img{
