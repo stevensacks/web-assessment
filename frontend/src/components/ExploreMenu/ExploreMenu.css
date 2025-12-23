@@ -21,7 +21,6 @@
     gap: 30px;
     text-align: center;
     margin: 20px 0px;
-    overflow: scroll;
 }
 
 .explore-menu-list::-webkit-scrollbar{
@@ -34,6 +33,10 @@
     cursor: pointer;
     border-radius: 50%;
     transition: 0.2s;
+
+    &:hover {
+        scale: 125%;
+    }
 }
 
 .explore-menu-list-item p{
